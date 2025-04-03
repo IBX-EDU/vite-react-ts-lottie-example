@@ -13,12 +13,10 @@ export default function LottieComponent() {
   };
 
   return (
-    <>
-      <Lottie2
-        options={defaultOptions}
-        height={400}
-        width={400}
-      />
-    </>
+    <Lottie2
+      options={defaultOptions}
+      height={400}
+      width={400}
+    />
   );
 }
